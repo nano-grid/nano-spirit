@@ -1,1 +1,6 @@
-# app_web_module_nano-spirit
+# Nano Spirit
+
+## Publish new version
+```bash
+yarn publish
+```
