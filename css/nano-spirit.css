@@ -1,21 +1,13 @@
 .nn-spirit {
+  --spirit-background: #1a1a1a;
+  background-color: var(--spirit-background);
   color: #2962ab;
-  background-color: #1a1a1a;
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
+  text-align: left;
+  word-break: break-word;
 }
-.nn-spirit .nn-sp-attr {
-  color: #7490d1;
-}
-.nn-spirit .nn-sp-acute, .nn-spirit .nn-sp-quote, .nn-spirit .nn-sp-d-quote {
-  color: #8454b7;
-}
-.nn-spirit .nn-sp-value {
-  color: #ffca00;
-}
-.nn-spirit .nn-sp-tag {
-  color: #c3567a;
-}
-.nn-spirit .nn-sp-text {
-  color: #f3f3f3;
+
+main.nn-light .nn-spirit {
+  --spirit-background: #303544;
 }

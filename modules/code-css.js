@@ -5,13 +5,13 @@ export function css(text) {
     .replace(/\n/g, "<br>")
     .replace(/\s/g, "&nbsp;")
 
-    .replace(/\:/g, spirit(":", "tag"))
-    .replace(/\{/g, "{" + spiritBegin("text"))
+    .replace(/\:/g, spirit(":", "blush"))
+    .replace(/\{/g, "{" + spiritBegin("silver"))
     .replace(/\}/g, spiritEnd() + "}")
 
-    .replace(/\{/g, spirit("{", "quote"))
-    .replace(/\}/g, spirit("}", "quote"))
+    .replace(/\{/g, spirit("{", "royal-purple"))
+    .replace(/\}/g, spirit("}", "royal-purple"))
 
-    .replace(/\(/g, spirit("(", "attr"))
-    .replace(/\)/g, spirit(")", "attr"))
+    .replace(/\(/g, spirit("(", "denim"))
+    .replace(/\)/g, spirit(")", "denim"));
 }

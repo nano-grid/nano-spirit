@@ -7,11 +7,11 @@ export function haml(text) {
 
     .replace(
       /(\:&nbsp;\")/g,
-      spirit(":&nbsp;&#34;", "quote") + spiritBegin("value")
+      spirit(":&nbsp;&#34;", "royal-purple") + spiritBegin("gold-tips")
     )
-    .replace(/(\")/g, spiritEnd() + spirit("&#34;", "quote"))
-    .replace(/(?<=&lt;[a-z]{1,})&nbsp;/g, "&nbsp;" + spiritBegin("attr"))
+    .replace(/(\")/g, spiritEnd() + spirit("&#34;", "royal-purple"))
+    // .replace(/(?<=&lt;[a-z]{1,})&nbsp;/g, "&nbsp;" + spiritBegin("denim"))
 
-    .replace(/\{/g, spirit("{", "tag") + spiritBegin("attr"))
-    .replace(/\}/g, spiritEnd() + spirit("}", "tag"));
+    .replace(/\{/g, spirit("{", "blush") + spiritBegin("denim"))
+    .replace(/\}/g, spiritEnd() + spirit("}", "blush"));
 }
