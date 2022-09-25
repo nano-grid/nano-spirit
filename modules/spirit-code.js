@@ -1,11 +1,11 @@
 export function spirit(word, klaso) {
-  return `<span class='nn-crayon nn-${klaso}'>${word}</span>`;
+  return `<nn-crayon nn-color='${klaso}'>${word}</nn-crayon>`;
 }
 
 export function spiritBegin(klaso) {
-  return `<span class='nn-crayon nn-${klaso}'>`;
+  return `<nn-crayon nn-color='${klaso}'>`;
 }
 
 export function spiritEnd() {
-  return `</span>`;
+  return `</nn-crayon>`;
 }
